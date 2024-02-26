@@ -8,7 +8,7 @@
     <h1>Associated Peoples:</h1>
     <ul>
         {% for x in mypeoples %}
-            <li>{{ x.firstname }} {{ x.lastname }}</li>
+            <li><a href="details/{{x.id}}">{{x.firstname}} {{x.lastname}}</a></li>
         {% endfor %}
     </ul>
 </body>
