@@ -25,6 +25,6 @@ def main(request):
 def testing(request):
   template = loader.get_template('template.html')
   context = {
-    'foods': ['Pasta', 'Pizza', 'Burger', 'Momos', 'Noodles'],
+    'languages': ['C', 'C++', 'Java', 'Python', 'JavaScript'],
   }
   return HttpResponse(template.render(context, request))
