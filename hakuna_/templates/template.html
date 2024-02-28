@@ -18,6 +18,13 @@
             <li class="card-title">{{ x }}</li>
         {% endfor %}
       </ol>
+
+      <ol class="card-body">
+        <h5 class="card-heading">Foods Liked By Me:</h5>
+        {% for x in foods %}
+            <li class="card-title">{{ x }}</li>
+        {% endfor %}
+      </ol>
       <p>In views.py we can see what the languages variable looks like.</p>
     </div>
 
